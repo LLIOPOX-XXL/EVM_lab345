@@ -14,6 +14,7 @@ repositories {
 
 dependencies {
     testImplementation(kotlin("test"))
+    implementation("io.arrow-kt:arrow-fx-coroutines:0.11.0")
 }
 
 tasks.test {
